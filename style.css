@@ -3,8 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+ 
+body{
+  background-color: rgb(247, 243, 243); 
+}
+  
+
 
 @media screen and (min-width:320px)and (max-width:480px){
+
+
+
   #navbar {
     display: none;
   }
@@ -227,7 +236,7 @@ footer{
 
 h1{
 
-  color: #ffbd4a;
+  
   font-family: 'Oswald', sans-serif;
   font-size: 70px;
 }
@@ -493,7 +502,6 @@ footer{
 
 h1{
 
-  color: #ffbd4a;
   font-family: 'Oswald', sans-serif;
   font-size: 70px;
 }
@@ -511,6 +519,11 @@ p{
 
 footer h3 {
   color: white;
+}
+
+.sr-only{
+
+  color: #161512;
 }
 
 
@@ -762,8 +775,6 @@ width: 100%;
   }
 
   h1{
-
-    color: #ffbd4a;
     font-family: 'Oswald', sans-serif;
     font-size: 70px;
   }
